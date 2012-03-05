@@ -1,0 +1,14 @@
+This script automatically casts votes for NITT at the IndiaToday poll.
+
+Instructions:
+	I have written the script with Linux users in mind. If you are using Windows,
+	you would have to install Python 2.7, mechanize module, and make some changes
+	to the code, if necessary. 
+
+	Step 1: Install Python 2.7 using your package manager
+	Step 2: Download and install mechanize
+				Download link: http://pypi.python.org/packages/source/m/mechanize/mechanize-0.2.5.zip
+				Extract the archive, change to the top-level directory, and run 
+					python setup.py install
+	Step 3: Run the bot using the command
+				python nittftw.py <number_of_votes>
